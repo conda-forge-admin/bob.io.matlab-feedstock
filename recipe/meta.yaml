@@ -10,7 +10,7 @@ source:
   md5: ae93565327b168aad1e681477cc9e1f1
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - bob.io.base
     - libmatio 1.5.*
     - pkg-config
-    - boost 1.61.*
+    - boost 1.62.*
 
   run:
     - python
@@ -33,7 +33,7 @@ requirements:
     - bob.core
     - bob.io.base
     - libmatio 1.5.*
-    - boost 1.61.*
+    - boost 1.62.*
 
 test:
   imports:
